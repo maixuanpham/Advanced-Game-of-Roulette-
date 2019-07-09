@@ -1,0 +1,90 @@
+Game: 100A1
+Initial Balance: 9500
+	Cash: $0
+	$100 chips: 50
+	$25 chips: 100
+	$5 chips: 200
+	$1 chips: 1000
+
+Player 1 exchanges $100 for 2 $25-chip, 5 $5 chip, 25 $1-chip
+Player 2 exchanges $100 for 2 $25-chip, 5 $5 chip, 25 $1-chip
+Player 3 exchanges $100 for 2 $25-chip, 5 $5 chip, 25 $1-chip
+
+Round 1 (Green 0)
+Trans Player BAmount ($100 $25 $5 $1)  BType  Pay ($100 $25 $5 $1)
+  1     1      15    (   0   0  3  0)   B   0  (   0   0  0  0)
+  2     1      10    (   0   0  2  0)   R   0  (   0   0  0  0)
+
+  3     2      18    (   0   0  3  3)   N(15)   0  (   0   0  0  0)
+
+  4     3      10    (   0   0  2  0)   R   0  (   0   0  0  0)
+
+
+Ending Balance: 9553
+	Cash: $300
+	$100 chips: 50
+	$25 chips: 94
+	$5 chips: 195
+	$1 chips: 928
+
+The difference amount for this session: 53
+Game: 100A2
+Initial Balance: 18500
+	Cash: $0
+	$100 chips: 100
+	$25 chips: 200
+	$5 chips: 500
+	$1 chips: 1000
+
+Player 1 exchanges $100 for 2 $25-chip, 5 $5 chip, 25 $1-chip
+Player 2 exchanges $100 for 2 $25-chip, 5 $5 chip, 25 $1-chip
+Player 3 exchanges $100 for 2 $25-chip, 5 $5 chip, 25 $1-chip
+Player 4 exchanges $100 for 2 $25-chip, 5 $5 chip, 25 $1-chip
+Player 5 exchanges $100 for 2 $25-chip, 5 $5 chip, 25 $1-chip
+
+Round 1 (Black 36)
+Trans Player BAmount ($100 $25 $5 $1)  BType  Pay ($100 $25 $5 $1)
+  1     1      50    (   0   2  0  0)   B   100  (   1   0  0  0)
+
+  2     2      20    (   0   0  4  0)   R   0  (   0   0  0  0)
+  3     2      55    (   0   2  0  5)   N(24)   0  (   0   0  0  0)
+
+  4     3      100    (   0   2  5  25)   R   0  (   0   0  0  0)
+
+  5     4      15    (   0   0  3  0)   B   30  (   0   1  1  0)
+
+  6     5      30    (   0   1  1  0)   B   60  (   0   2  2  0)
+
+
+Ending Balance: 18580
+	Cash: $500
+	$100 chips: 99
+	$25 chips: 194
+	$5 chips: 485
+	$1 chips: 905
+
+The difference amount for this session: 80
+Game: 100A1
+Initial Balance: 9553
+	Cash: $300
+	$100 chips: 50
+	$25 chips: 94
+	$5 chips: 195
+	$1 chips: 928
+
+Player 3 exchanges $100 for 2 $25-chip, 5 $5 chip, 25 $1-chip
+
+Round 2 (Red 15)
+Trans Player BAmount ($100 $25 $5 $1)  BType  Pay ($100 $25 $5 $1)
+  1     3      20    (   0   0  4  0)   R   40  (   0   1  3  0)
+  2     3      15    (   0   0  0  15)   B   0  (   0   0  0  0)
+
+
+Ending Balance: 9548
+	Cash: $400
+	$100 chips: 50
+	$25 chips: 91
+	$5 chips: 191
+	$1 chips: 918
+
+The difference amount for this session: -5
